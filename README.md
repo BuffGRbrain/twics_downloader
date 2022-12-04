@@ -12,10 +12,9 @@ First of all download/clone the repository on your desired directory, then you h
 ```Batchfile
   pip install requests==2.27.1
 ```
+After installing the required module,proceed with modifying the *config.json* file. 
 
-After installing the required module, change the path in the *main.py* file for the config.json on line 7, to where you stored this repository.
-
-Finally proceed with modifying the *config.json* file. This file has 3 items:
+This file has 3 items:
 * initial_twic_2download: Number of the first twic to download.
 * final_twic_2download: Number of the last twic to download.
 * file_folder: Desired location (*path*) for the downloaded twics, the folder that will be used to store the twics must exist.
