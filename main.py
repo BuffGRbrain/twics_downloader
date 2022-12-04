@@ -1,10 +1,7 @@
 import requests
 import json
-#Modify the config.json before executing.
-#The folder destinatio must exist.
-#Pending unzip all files, this has to be done manually.
-#Use your own path for the config file
-f = open("your_Path/config.json")
+
+f = open("config.json")
 data = json.load(f)
 print(data)
 initial_twic_2download = data["initial_twic_2download"]
